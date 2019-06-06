@@ -13,4 +13,6 @@ public interface IClientService {
 
 	public void deleteClient(Long id);
 
+	public void updateClient(Client client);
+
 }

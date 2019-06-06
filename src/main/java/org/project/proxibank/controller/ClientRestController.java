@@ -5,16 +5,19 @@ import java.util.List;
 import org.project.proxibank.entities.Client;
 import org.project.proxibank.service.IClientService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/clients")
+@CrossOrigin("http://localhost:4200")
 public class ClientRestController {
 
 	@Autowired
@@ -23,7 +26,6 @@ public class ClientRestController {
 	@GetMapping("/{idClient}")
 	public Client getClient(@PathVariable("idClient") Long id) {
 		return clientService.getClient(id);
-
 	}
 
 	@PostMapping
@@ -39,5 +41,11 @@ public class ClientRestController {
 	@DeleteMapping("/{idClient}")
 	public void deleteClient(@PathVariable("idClient") Long id) {
 		clientService.deleteClient(id);
+	}
+
+	@PutMapping
+	public Client updateClient(@RequestBody Client client) {
+		clientService.createClient(client);
+		return clientService.getClient(client.getIdClient());
 	}
 }
