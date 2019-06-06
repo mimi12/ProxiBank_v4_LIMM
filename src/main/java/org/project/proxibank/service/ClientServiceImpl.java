@@ -35,8 +35,7 @@ public class ClientServiceImpl implements IClientService {
 	@Override
 	public void updateClient(Client client) {
 		Client c1 = clientRepository.findById(client.getIdClient()).get();
-		c1.setFirstName(c1.getFirstName());
-		c1.setLastName(c1.getLastName());
+
 		c1.setPhone(c1.getPhone());
 		c1.setEmail(c1.getEmail());
 		c1.setAddressClient(c1.getAddressClient());

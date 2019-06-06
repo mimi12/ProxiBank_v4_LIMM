@@ -1,12 +1,23 @@
 package org.project.proxibank.entities;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.persistence.CascadeType;
+import javax.persistence.DiscriminatorColumn;
+import javax.persistence.DiscriminatorType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.Inheritance;
+import javax.persistence.InheritanceType;
+import javax.persistence.OneToMany;
 
 @Entity
-public class Client {
+@Inheritance(strategy = InheritanceType.JOINED)
+@DiscriminatorColumn(name = "TypeOfClient", discriminatorType = DiscriminatorType.STRING)
+public abstract class Client {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long idClient;
@@ -17,6 +28,9 @@ public class Client {
 	private String addressClient;
 	private String zipCodeClient;
 	private String cityClient;
+	
+	@OneToMany(mappedBy = "client" , cascade = { CascadeType.PERSIST, CascadeType.REMOVE})
+	private List<Account> accountList = new ArrayList<Account>();
 
 	public Client() {
 		super();
@@ -63,7 +77,6 @@ public class Client {
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
-	
 
 	public String getPhone() {
 		return phone;
@@ -103,6 +116,14 @@ public class Client {
 
 	public void setCityClient(String cityClient) {
 		this.cityClient = cityClient;
+	}
+
+	public List<Account> getAccountList() {
+		return accountList;
+	}
+
+	public void setAccountList(List<Account> accountList) {
+		this.accountList = accountList;
 	}
 
 }
