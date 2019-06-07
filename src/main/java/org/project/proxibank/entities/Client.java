@@ -14,6 +14,15 @@ import javax.persistence.Inheritance;
 import javax.persistence.InheritanceType;
 import javax.persistence.OneToMany;
 
+/**
+ * Classe abstraite {@link Client} qui contient les attributs d'un objet Client, les getters,
+ * setters et constructeurs. Elle peut être un {@link Company} ou un
+ * {@link Customer}, de même elle peut avoir un compte {@link CurrentAccount},
+ * un compte {@link SavingsAccount}, ou une liste de comptes.
+ * 
+ * @author LIMM
+ *
+ */
 @Entity
 @Inheritance(strategy = InheritanceType.JOINED)
 @DiscriminatorColumn(name = "TypeOfClient", discriminatorType = DiscriminatorType.STRING)
@@ -28,8 +37,8 @@ public abstract class Client {
 	private String addressClient;
 	private String zipCodeClient;
 	private String cityClient;
-	
-	@OneToMany(mappedBy = "client" , cascade = { CascadeType.PERSIST, CascadeType.REMOVE})
+
+	@OneToMany(mappedBy = "client", cascade = { CascadeType.PERSIST, CascadeType.REMOVE })
 	private List<Account> accountList = new ArrayList<Account>();
 
 	public Client() {

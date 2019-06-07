@@ -13,6 +13,16 @@ import javax.persistence.InheritanceType;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 
+/**
+ * Classe abstraite {@link Account} qui contient les attributs d'un compte
+ * bancaire. Elle peut être un {@link CurrentAccount} ou un
+ * {@link SavingsAccount}. Les comptes sont persistés à partir d'un client : ils
+ * possèderont leur "accountNumber" comme identifiant unique ainsi que
+ * l'"id_client" du {@link Client} auquel ils sont reliés.
+ * 
+ * @author LIMM
+ *
+ */
 @Entity
 @Inheritance(strategy = InheritanceType.JOINED)
 @DiscriminatorColumn(name = "TypeOfAccount", discriminatorType = DiscriminatorType.STRING)
@@ -75,6 +85,5 @@ public abstract class Account {
 		return "Account [accountNumber=" + accountNumber + ", accountBalance=" + accountBalance
 				+ ", openingAccountDate=" + openingAccountDate + ", client=" + client + "]";
 	}
-	
 
 }
