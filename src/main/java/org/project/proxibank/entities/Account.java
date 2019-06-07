@@ -1,7 +1,10 @@
 package org.project.proxibank.entities;
 
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
+import javax.persistence.CascadeType;
 import javax.persistence.DiscriminatorColumn;
 import javax.persistence.DiscriminatorType;
 import javax.persistence.Entity;
@@ -12,6 +15,10 @@ import javax.persistence.Inheritance;
 import javax.persistence.InheritanceType;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
+
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 /**
  * Classe abstraite {@link Account} qui contient les attributs d'un compte
@@ -29,14 +36,26 @@ import javax.persistence.ManyToOne;
 public abstract class Account {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	private Long accountNumber;
+	private Long id;
 
 	private double accountBalance;
 	private Date openingAccountDate;
 
+	@JsonBackReference
 	@ManyToOne
 	@JoinColumn(name = "id_Client")
 	private Client client;
+
+	@OneToMany(cascade = CascadeType.ALL)
+	List<Operation> operationList = new ArrayList<Operation>();
+
+	public List<Operation> getOperationList() {
+		return operationList;
+	}
+
+	public void setOperationList(List<Operation> operationList) {
+		this.operationList = operationList;
+	}
 
 	public Account(double accountBalance, Date openingAccountDate) {
 		super();
@@ -49,11 +68,11 @@ public abstract class Account {
 	}
 
 	public Long getAccountNumber() {
-		return accountNumber;
+		return id;
 	}
 
-	public void setAccountNumber(Long accountNumber) {
-		this.accountNumber = accountNumber;
+	public void setAccountNumber(Long id) {
+		this.id = id;
 	}
 
 	public double getAccountBalance() {
@@ -82,8 +101,8 @@ public abstract class Account {
 
 	@Override
 	public String toString() {
-		return "Account [accountNumber=" + accountNumber + ", accountBalance=" + accountBalance
-				+ ", openingAccountDate=" + openingAccountDate + ", client=" + client + "]";
+		return "Account [id=" + id + ", accountBalance=" + accountBalance + ", openingAccountDate=" + openingAccountDate
+				+ ", client=" + client + ", operationList=" + operationList + "]";
 	}
 
 }

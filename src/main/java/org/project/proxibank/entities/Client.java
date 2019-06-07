@@ -12,13 +12,21 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Inheritance;
 import javax.persistence.InheritanceType;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
+import javax.xml.bind.annotation.XmlTransient;
+
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 /**
- * Classe abstraite {@link Client} qui contient les attributs d'un objet Client, les getters,
- * setters et constructeurs. Elle peut être un {@link Company} ou un
- * {@link Customer}, de même elle peut avoir un compte {@link CurrentAccount},
- * un compte {@link SavingsAccount}, ou une liste de comptes.
+ * Classe abstraite {@link Client} qui contient les attributs d'un objet Client,
+ * les getters, setters et constructeurs. Elle peut être un {@link Company} ou
+ * un {@link Customer}, de même elle peut avoir un compte
+ * {@link CurrentAccount}, un compte {@link SavingsAccount}, ou une liste de
+ * comptes.
  * 
  * @author LIMM
  *
@@ -27,64 +35,33 @@ import javax.persistence.OneToMany;
 @Inheritance(strategy = InheritanceType.JOINED)
 @DiscriminatorColumn(name = "TypeOfClient", discriminatorType = DiscriminatorType.STRING)
 public abstract class Client {
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	private Long idClient;
-	private String firstName;
-	private String lastName;
+	private Long id;
 	private String phone;
 	private String email;
 	private String addressClient;
 	private String zipCodeClient;
 	private String cityClient;
 
+	@XmlTransient
+	@JsonManagedReference
 	@OneToMany(mappedBy = "client", cascade = { CascadeType.PERSIST, CascadeType.REMOVE })
 	private List<Account> accountList = new ArrayList<Account>();
 
-	public Client() {
-		super();
-	}
+	@JsonBackReference
+	@ManyToOne(cascade = { CascadeType.PERSIST, CascadeType.REMOVE })
+	@JoinColumn(name = "id_Advisor")
 
-	public Client(String firstName, String lastName, String phone, String email, String addressClient,
-			String zipCodeClient, String cityClient) {
-		super();
-		this.firstName = firstName;
-		this.lastName = lastName;
-		this.phone = phone;
-		this.email = email;
-		this.addressClient = addressClient;
-		this.zipCodeClient = zipCodeClient;
-		this.cityClient = cityClient;
-	}
-
-	public Client(String firstName, String lastName) {
-		super();
-		this.firstName = firstName;
-		this.lastName = lastName;
-	}
+	private Advisor advisor;
 
 	public Long getIdClient() {
-		return idClient;
+		return id;
 	}
 
-	public void setIdClient(Long idClient) {
-		this.idClient = idClient;
-	}
-
-	public String getFirstName() {
-		return firstName;
-	}
-
-	public void setFirstName(String firstName) {
-		this.firstName = firstName;
-	}
-
-	public String getLastName() {
-		return lastName;
-	}
-
-	public void setLastName(String lastName) {
-		this.lastName = lastName;
+	public void setIdClient(Long id) {
+		this.id = id;
 	}
 
 	public String getPhone() {
@@ -133,6 +110,14 @@ public abstract class Client {
 
 	public void setAccountList(List<Account> accountList) {
 		this.accountList = accountList;
+	}
+
+	public Advisor getAdvisor() {
+		return advisor;
+	}
+
+	public void setAdvisor(Advisor advisor) {
+		this.advisor = advisor;
 	}
 
 }
