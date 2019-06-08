@@ -64,9 +64,9 @@ public abstract class Account {
 	@OneToMany(cascade = CascadeType.ALL)
 	List<Operation> operationList = new ArrayList<Operation>();
 
-//	public List<Operation> getOperationList() {
-//		return operationList;
-//	}
+	public List<Operation> getOperationList() {
+		return operationList;
+	}
 
 	public void setOperationList(List<Operation> operationList) {
 		this.operationList = operationList;

@@ -50,14 +50,14 @@ class ProxiBankV4LimmApplicationTests {
 		b.setAccountBalance(2500.0);
 		b.setOpeningAccountDate(new Date());
 
-//		Operation op = new DebitOperation();
-//		op.setAmount(1000.0);
-//		op.setOperationDate(new Date());
-//		op.setAccount(b);
-//
-//		List<Operation> operationList = new ArrayList<Operation>();
-//		operationList.add(op);
-//		b.setOperationList(operationList);
+		Operation op = new DebitOperation();
+		op.setAmount(1000.0);
+		op.setOperationDate(new Date());
+		op.setAccount(b);
+
+		List<Operation> operationList = new ArrayList<Operation>();
+		operationList.add(op);
+		b.setOperationList(operationList);
 
 		List<Client> listClient = new ArrayList<Client>();
 		listClient.add(c);

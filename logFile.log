@@ -9977,3 +9977,1218 @@ Verify the connector's configuration, identify and stop any process that's liste
 				- HikariPool-1 - Shutdown initiated...
 16:48:58.779 12001 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource
 				- HikariPool-1 - Shutdown completed.
+17:08:52.791 1541284 [http-nio-8080-exec-10] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver
+				- Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+17:18:04.748 347  [main] INFO  o.p.p.ProxiBankV4LimmApplication
+				- Starting ProxiBankV4LimmApplication on Mambo46 with PID 36532 (C:\Users\Adminl\Desktop\WorkProject\ProxiBank_v4_LIMM\target\classes started by Adminl in C:\Users\Adminl\Desktop\WorkProject\ProxiBank_v4_LIMM)
+17:18:04.750 349  [main] INFO  o.p.p.ProxiBankV4LimmApplication
+				- No active profile set, falling back to default profiles: default
+17:18:05.171 770  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Bootstrapping Spring Data repositories in DEFAULT mode.
+17:18:05.218 817  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Finished Spring Data repository scanning in 42ms. Found 3 repository interfaces.
+17:18:05.375 974  [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f463ff] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:18:05.568 1167 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				- Tomcat initialized with port(s): 8080 (http)
+17:18:05.578 1177 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				- Initializing ProtocolHandler ["http-nio-8080"]
+17:18:05.585 1184 [main] INFO  o.a.catalina.core.StandardService
+				- Starting service [Tomcat]
+17:18:05.585 1184 [main] INFO  o.a.catalina.core.StandardEngine
+				- Starting Servlet engine: [Apache Tomcat/9.0.19]
+17:18:05.762 1361 [main] INFO  o.apache.jasper.servlet.TldScanner
+				- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17:18:05.768 1367 [main] INFO  o.a.c.c.C.[.[localhost].[/limm]
+				- Initializing Spring embedded WebApplicationContext
+17:18:05.768 1367 [main] INFO  o.s.web.context.ContextLoader
+				- Root WebApplicationContext: initialization completed in 991 ms
+17:18:05.883 1482 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: default]
+17:18:05.920 1519 [main] INFO  org.hibernate.Version
+				- HHH000412: Hibernate Core {5.4.2.Final}
+17:18:05.994 1593 [main] INFO  o.h.annotations.common.Version
+				- HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+17:18:06.047 1646 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Starting...
+17:18:06.148 1747 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Start completed.
+17:18:06.153 1752 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+17:18:09.102 2097595 [RMI TCP Connection(37)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin
+				- Application shutdown requested.
+17:18:09.105 2097598 [RMI TCP Connection(37)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				- Shutting down ExecutorService 'applicationTaskExecutor'
+17:18:09.105 2097598 [RMI TCP Connection(37)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Closing JPA EntityManagerFactory for persistence unit 'default'
+17:18:09.107 2097600 [RMI TCP Connection(37)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown initiated...
+17:18:09.113 2097606 [RMI TCP Connection(37)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown completed.
+17:18:12.129 329  [main] INFO  o.p.p.ProxiBankV4LimmApplication
+				- Starting ProxiBankV4LimmApplication on Mambo46 with PID 22860 (C:\Users\Adminl\Desktop\WorkProject\ProxiBank_v4_LIMM\target\classes started by Adminl in C:\Users\Adminl\Desktop\WorkProject\ProxiBank_v4_LIMM)
+17:18:12.131 331  [main] INFO  o.p.p.ProxiBankV4LimmApplication
+				- No active profile set, falling back to default profiles: default
+17:18:12.539 739  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Bootstrapping Spring Data repositories in DEFAULT mode.
+17:18:12.585 785  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Finished Spring Data repository scanning in 41ms. Found 3 repository interfaces.
+17:18:12.741 941  [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$86492385] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:18:12.895 1095 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				- Tomcat initialized with port(s): 8080 (http)
+17:18:12.905 1105 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				- Initializing ProtocolHandler ["http-nio-8080"]
+17:18:12.912 1112 [main] INFO  o.a.catalina.core.StandardService
+				- Starting service [Tomcat]
+17:18:12.912 1112 [main] INFO  o.a.catalina.core.StandardEngine
+				- Starting Servlet engine: [Apache Tomcat/9.0.19]
+17:18:13.088 1288 [main] INFO  o.apache.jasper.servlet.TldScanner
+				- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17:18:13.095 1295 [main] INFO  o.a.c.c.C.[.[localhost].[/limm]
+				- Initializing Spring embedded WebApplicationContext
+17:18:13.095 1295 [main] INFO  o.s.web.context.ContextLoader
+				- Root WebApplicationContext: initialization completed in 937 ms
+17:18:13.199 1399 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: default]
+17:18:13.235 1435 [main] INFO  org.hibernate.Version
+				- HHH000412: Hibernate Core {5.4.2.Final}
+17:18:13.305 1505 [main] INFO  o.h.annotations.common.Version
+				- HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+17:18:13.359 1559 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Starting...
+17:18:13.443 1643 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Start completed.
+17:18:13.465 1665 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+17:18:13.965 2165 [main] WARN  o.h.t.s.i.ExceptionHandlerLoggedImpl
+				- GenerationTarget encountered exception accepting command : Error executing DDL "alter table account drop foreign key FK3a5b43d0pyxvd4q9ap4lk5dyg" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table account drop foreign key FK3a5b43d0pyxvd4q9ap4lk5dyg" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:375)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:359)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:331)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:230)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:154)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:126)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:112)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:145)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:309)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:462)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:935)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1842)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1779)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:404)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:319)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1275)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1263)
+	at org.project.proxibank.ProxiBankV4LimmApplication.main(ProxiBankV4LimmApplication.java:10)
+Caused by: java.sql.SQLSyntaxErrorException: Can't DROP 'FK3a5b43d0pyxvd4q9ap4lk5dyg'; check that column/key exists
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:782)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:666)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 35 common frames omitted
+17:18:13.970 2170 [main] WARN  o.h.t.s.i.ExceptionHandlerLoggedImpl
+				- GenerationTarget encountered exception accepting command : Error executing DDL "alter table account_operation_list drop foreign key FKtfsybm4l1s7l6spps6a3r2stw" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table account_operation_list drop foreign key FKtfsybm4l1s7l6spps6a3r2stw" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:375)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:359)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:331)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:230)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:154)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:126)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:112)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:145)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:309)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:462)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:935)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1842)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1779)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:404)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:319)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1275)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1263)
+	at org.project.proxibank.ProxiBankV4LimmApplication.main(ProxiBankV4LimmApplication.java:10)
+Caused by: java.sql.SQLSyntaxErrorException: Can't DROP 'FKtfsybm4l1s7l6spps6a3r2stw'; check that column/key exists
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:782)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:666)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 35 common frames omitted
+17:18:13.974 2174 [main] WARN  o.h.t.s.i.ExceptionHandlerLoggedImpl
+				- GenerationTarget encountered exception accepting command : Error executing DDL "alter table account_operation_list drop foreign key FKqn87lgpl5723nej1g14188482" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table account_operation_list drop foreign key FKqn87lgpl5723nej1g14188482" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:375)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:359)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:331)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:230)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:154)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:126)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:112)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:145)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:309)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:462)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:935)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1842)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1779)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:404)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:319)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1275)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1263)
+	at org.project.proxibank.ProxiBankV4LimmApplication.main(ProxiBankV4LimmApplication.java:10)
+Caused by: java.sql.SQLSyntaxErrorException: Can't DROP 'FKqn87lgpl5723nej1g14188482'; check that column/key exists
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:782)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:666)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 35 common frames omitted
+17:18:13.979 2179 [main] WARN  o.h.t.s.i.ExceptionHandlerLoggedImpl
+				- GenerationTarget encountered exception accepting command : Error executing DDL "alter table client drop foreign key FKbvsj20quwubdpxn6tl8oin8q1" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table client drop foreign key FKbvsj20quwubdpxn6tl8oin8q1" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:375)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:359)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:331)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:230)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:154)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:126)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:112)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:145)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:309)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:462)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:935)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1842)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1779)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:404)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:319)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1275)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1263)
+	at org.project.proxibank.ProxiBankV4LimmApplication.main(ProxiBankV4LimmApplication.java:10)
+Caused by: java.sql.SQLSyntaxErrorException: Can't DROP 'FKbvsj20quwubdpxn6tl8oin8q1'; check that column/key exists
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:782)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:666)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 35 common frames omitted
+17:18:13.986 2186 [main] WARN  o.h.t.s.i.ExceptionHandlerLoggedImpl
+				- GenerationTarget encountered exception accepting command : Error executing DDL "alter table employee drop foreign key FKnn9cii39wpyx5lcnwdaibex3i" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table employee drop foreign key FKnn9cii39wpyx5lcnwdaibex3i" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:375)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:359)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:331)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:230)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:154)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:126)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:112)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:145)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:309)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:462)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:935)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1842)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1779)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:404)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:319)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1275)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1263)
+	at org.project.proxibank.ProxiBankV4LimmApplication.main(ProxiBankV4LimmApplication.java:10)
+Caused by: java.sql.SQLSyntaxErrorException: Can't DROP 'FKnn9cii39wpyx5lcnwdaibex3i'; check that column/key exists
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:782)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:666)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 35 common frames omitted
+17:18:20.292 8492 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17:18:20.298 8498 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:18:20.537 8737 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+				- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17:18:20.611 8811 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				- Initializing ExecutorService 'applicationTaskExecutor'
+17:18:20.730 8930 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				- Starting ProtocolHandler ["http-nio-8080"]
+17:18:20.750 8950 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				- Tomcat started on port(s): 8080 (http) with context path '/limm'
+17:18:20.752 8952 [main] INFO  o.p.p.ProxiBankV4LimmApplication
+				- Started ProxiBankV4LimmApplication in 8.79 seconds (JVM running for 9.31)
+17:18:32.352 20552 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[localhost].[/limm]
+				- Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:18:32.353 20553 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+				- Initializing Servlet 'dispatcherServlet'
+17:18:32.359 20559 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+				- Completed initialization in 6 ms
+17:18:50.736 38936 [http-nio-8080-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]
+				- Servlet.service() for servlet [dispatcherServlet] in context with path [/limm] threw exception [Request processing failed; nested exception is java.util.NoSuchElementException: No value present] with root cause
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:148)
+	at org.project.proxibank.service.ClientServiceImpl.getClient(ClientServiceImpl.java:38)
+	at org.project.proxibank.controller.ClientRestController.getClient(ClientRestController.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:889)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:794)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:836)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1747)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+17:18:58.562 46762 [http-nio-8080-exec-3] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]
+				- Servlet.service() for servlet [dispatcherServlet] in context with path [/limm] threw exception [Request processing failed; nested exception is java.util.NoSuchElementException: No value present] with root cause
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:148)
+	at org.project.proxibank.service.ClientServiceImpl.getClient(ClientServiceImpl.java:38)
+	at org.project.proxibank.controller.ClientRestController.getClient(ClientRestController.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:889)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:794)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:836)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1747)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+17:19:21.713 203  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+				- Neither @ContextConfiguration nor @ContextHierarchy found for test class [org.project.proxibank.ProxiBankV4LimmApplicationTests], using SpringBootContextLoader
+17:19:21.718 208  [main] INFO  o.s.t.c.s.AbstractContextLoader
+				- Could not detect default resource locations for test class [org.project.proxibank.ProxiBankV4LimmApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+17:19:21.719 209  [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils
+				- Could not detect default configuration classes for test class [org.project.proxibank.ProxiBankV4LimmApplicationTests]: ProxiBankV4LimmApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:19:21.801 291  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+				- Found @SpringBootConfiguration org.project.proxibank.ProxiBankV4LimmApplication for test class org.project.proxibank.ProxiBankV4LimmApplicationTests
+17:19:21.881 371  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+				- Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+17:19:21.896 386  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+				- Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2b76ff4e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7a1234bf, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2f62ea70, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@24ba9639, org.springframework.test.context.support.DirtiesContextTestExecutionListener@38aa816f, org.springframework.test.context.transaction.TransactionalTestExecutionListener@53f6fd09, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6bffbc6d, org.springframework.test.context.event.EventPublishingTestExecutionListener@1b84f475, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7749bf93, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@13330ac6, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@539d019, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@39a2bb97, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3ad2e17]
+17:19:22.136 626  [main] INFO  o.p.p.ProxiBankV4LimmApplicationTests
+				- Starting ProxiBankV4LimmApplicationTests on Mambo46 with PID 16056 (started by Adminl in C:\Users\Adminl\Desktop\WorkProject\ProxiBank_v4_LIMM)
+17:19:22.137 627  [main] INFO  o.p.p.ProxiBankV4LimmApplicationTests
+				- No active profile set, falling back to default profiles: default
+17:19:22.828 1318 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Bootstrapping Spring Data repositories in DEFAULT mode.
+17:19:22.895 1385 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Finished Spring Data repository scanning in 61ms. Found 3 repository interfaces.
+17:19:23.173 1663 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5fe9e0d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:19:23.417 1907 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: default]
+17:19:23.478 1968 [main] INFO  org.hibernate.Version
+				- HHH000412: Hibernate Core {5.4.2.Final}
+17:19:23.606 2096 [main] INFO  o.h.annotations.common.Version
+				- HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+17:19:23.801 2291 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Starting...
+17:19:23.953 2443 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Start completed.
+17:19:23.964 2454 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+17:19:31.274 9764 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17:19:31.283 9773 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:19:31.876 10366 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+				- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17:19:32.125 10615 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				- Initializing ExecutorService 'applicationTaskExecutor'
+17:19:32.488 10978 [main] INFO  o.p.p.ProxiBankV4LimmApplicationTests
+				- Started ProxiBankV4LimmApplicationTests in 10.561 seconds (JVM running for 11.384)
+17:19:33.392 11882 [Thread-1] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				- Shutting down ExecutorService 'applicationTaskExecutor'
+17:19:33.395 11885 [Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Closing JPA EntityManagerFactory for persistence unit 'default'
+17:19:33.398 11888 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown initiated...
+17:19:33.413 11903 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown completed.
+17:34:44.277 198  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+				- Neither @ContextConfiguration nor @ContextHierarchy found for test class [org.project.proxibank.ServiceTestLayer], using SpringBootContextLoader
+17:34:44.283 204  [main] INFO  o.s.t.c.s.AbstractContextLoader
+				- Could not detect default resource locations for test class [org.project.proxibank.ServiceTestLayer]: no resource found for suffixes {-context.xml, Context.groovy}.
+17:34:44.283 204  [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils
+				- Could not detect default configuration classes for test class [org.project.proxibank.ServiceTestLayer]: ServiceTestLayer does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:34:44.368 289  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+				- Found @SpringBootConfiguration org.project.proxibank.ProxiBankV4LimmApplication for test class org.project.proxibank.ServiceTestLayer
+17:34:44.442 363  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+				- Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+17:34:44.458 379  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+				- Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6bffbc6d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1b84f475, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7749bf93, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@13330ac6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@539d019, org.springframework.test.context.transaction.TransactionalTestExecutionListener@39a2bb97, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3ad2e17, org.springframework.test.context.event.EventPublishingTestExecutionListener@8c3619e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4331d187, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6f63b475, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@554e218, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1608bcbd, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5bf8fa12]
+17:34:44.688 609  [main] INFO  o.p.proxibank.ServiceTestLayer
+				- Starting ServiceTestLayer on Mambo46 with PID 13132 (started by Adminl in C:\Users\Adminl\Desktop\WorkProject\ProxiBank_v4_LIMM)
+17:34:44.689 610  [main] INFO  o.p.proxibank.ServiceTestLayer
+				- No active profile set, falling back to default profiles: default
+17:34:45.353 1274 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Bootstrapping Spring Data repositories in DEFAULT mode.
+17:34:45.418 1339 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Finished Spring Data repository scanning in 59ms. Found 3 repository interfaces.
+17:34:45.719 1640 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$403973f6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:34:45.961 1882 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: default]
+17:34:46.020 1941 [main] INFO  org.hibernate.Version
+				- HHH000412: Hibernate Core {5.4.2.Final}
+17:34:46.147 2068 [main] INFO  o.h.annotations.common.Version
+				- HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+17:34:46.340 2261 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Starting...
+17:34:46.491 2412 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Start completed.
+17:34:46.502 2423 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+17:34:54.412 10333 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17:34:54.419 10340 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:34:55.024 10945 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+				- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17:34:55.294 11215 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				- Initializing ExecutorService 'applicationTaskExecutor'
+17:34:55.664 11585 [main] INFO  o.p.proxibank.ServiceTestLayer
+				- Started ServiceTestLayer in 11.176 seconds (JVM running for 11.996)
+17:34:56.038 11959 [Thread-1] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				- Shutting down ExecutorService 'applicationTaskExecutor'
+17:34:56.039 11960 [Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Closing JPA EntityManagerFactory for persistence unit 'default'
+17:34:56.042 11963 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown initiated...
+17:34:56.051 11972 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown completed.
+17:36:41.343 335  [main] INFO  o.p.p.ProxiBankV4LimmApplication
+				- Starting ProxiBankV4LimmApplication on Mambo46 with PID 9888 (C:\Users\Adminl\Desktop\WorkProject\ProxiBank_v4_LIMM\target\classes started by Adminl in C:\Users\Adminl\Desktop\WorkProject\ProxiBank_v4_LIMM)
+17:36:41.344 336  [main] INFO  o.p.p.ProxiBankV4LimmApplication
+				- No active profile set, falling back to default profiles: default
+17:36:41.757 749  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Bootstrapping Spring Data repositories in DEFAULT mode.
+17:36:41.805 797  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Finished Spring Data repository scanning in 42ms. Found 3 repository interfaces.
+17:36:41.971 963  [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ff9e9081] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:36:42.126 1118 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				- Tomcat initialized with port(s): 8080 (http)
+17:36:42.136 1128 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				- Initializing ProtocolHandler ["http-nio-8080"]
+17:36:42.143 1135 [main] INFO  o.a.catalina.core.StandardService
+				- Starting service [Tomcat]
+17:36:42.143 1135 [main] INFO  o.a.catalina.core.StandardEngine
+				- Starting Servlet engine: [Apache Tomcat/9.0.19]
+17:36:42.325 1317 [main] INFO  o.apache.jasper.servlet.TldScanner
+				- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17:36:42.332 1324 [main] INFO  o.a.c.c.C.[.[localhost].[/limm]
+				- Initializing Spring embedded WebApplicationContext
+17:36:42.332 1324 [main] INFO  o.s.web.context.ContextLoader
+				- Root WebApplicationContext: initialization completed in 961 ms
+17:36:42.441 1433 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: default]
+17:36:42.477 1469 [main] INFO  org.hibernate.Version
+				- HHH000412: Hibernate Core {5.4.2.Final}
+17:36:42.546 1538 [main] INFO  o.h.annotations.common.Version
+				- HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+17:36:42.598 1590 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Starting...
+17:36:42.681 1673 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Start completed.
+17:36:42.696 1688 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+17:36:50.909 9901 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17:36:50.915 9907 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:36:51.164 10156 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+				- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17:36:51.240 10232 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				- Initializing ExecutorService 'applicationTaskExecutor'
+17:36:51.358 10350 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				- Starting ProtocolHandler ["http-nio-8080"]
+17:36:51.366 10358 [main] ERROR o.a.catalina.util.LifecycleBase
+				- Failed to start component [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:226)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:259)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:311)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:164)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:404)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:319)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1275)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1263)
+	at org.project.proxibank.ProxiBankV4LimmApplication.main(ProxiBankV4LimmApplication.java:10)
+Caused by: java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:455)
+	at java.base/sun.nio.ch.Net.bind(Net.java:447)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:219)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:239)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1116)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1202)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:568)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 14 common frames omitted
+17:36:51.374 10366 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				- Pausing ProtocolHandler ["http-nio-8080"]
+17:36:51.374 10366 [main] INFO  o.a.catalina.core.StandardService
+				- Stopping service [Tomcat]
+17:36:51.377 10369 [main] INFO  o.a.catalina.util.LifecycleBase
+				- The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+17:36:51.377 10369 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				- Stopping ProtocolHandler ["http-nio-8080"]
+17:36:51.377 10369 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				- Destroying ProtocolHandler ["http-nio-8080"]
+17:36:51.380 10372 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener
+				- 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+17:36:51.382 10374 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter
+				- 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+17:36:51.383 10375 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				- Shutting down ExecutorService 'applicationTaskExecutor'
+17:36:51.384 10376 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Closing JPA EntityManagerFactory for persistence unit 'default'
+17:36:51.385 10377 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown initiated...
+17:36:51.392 10384 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown completed.
+17:36:53.195 1121395 [RMI TCP Connection(21)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin
+				- Application shutdown requested.
+17:36:53.198 1121398 [RMI TCP Connection(21)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				- Shutting down ExecutorService 'applicationTaskExecutor'
+17:36:53.199 1121399 [RMI TCP Connection(21)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Closing JPA EntityManagerFactory for persistence unit 'default'
+17:36:53.201 1121401 [RMI TCP Connection(21)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown initiated...
+17:36:53.208 1121408 [RMI TCP Connection(21)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown completed.
+17:36:56.262 332  [main] INFO  o.p.p.ProxiBankV4LimmApplication
+				- Starting ProxiBankV4LimmApplication on Mambo46 with PID 5296 (C:\Users\Adminl\Desktop\WorkProject\ProxiBank_v4_LIMM\target\classes started by Adminl in C:\Users\Adminl\Desktop\WorkProject\ProxiBank_v4_LIMM)
+17:36:56.264 334  [main] INFO  o.p.p.ProxiBankV4LimmApplication
+				- No active profile set, falling back to default profiles: default
+17:36:56.671 741  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Bootstrapping Spring Data repositories in DEFAULT mode.
+17:36:56.718 788  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Finished Spring Data repository scanning in 42ms. Found 3 repository interfaces.
+17:36:56.877 947  [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5d4aabf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:36:57.043 1113 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				- Tomcat initialized with port(s): 8080 (http)
+17:36:57.053 1123 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				- Initializing ProtocolHandler ["http-nio-8080"]
+17:36:57.060 1130 [main] INFO  o.a.catalina.core.StandardService
+				- Starting service [Tomcat]
+17:36:57.060 1130 [main] INFO  o.a.catalina.core.StandardEngine
+				- Starting Servlet engine: [Apache Tomcat/9.0.19]
+17:36:57.266 1336 [main] INFO  o.apache.jasper.servlet.TldScanner
+				- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17:36:57.273 1343 [main] INFO  o.a.c.c.C.[.[localhost].[/limm]
+				- Initializing Spring embedded WebApplicationContext
+17:36:57.273 1343 [main] INFO  o.s.web.context.ContextLoader
+				- Root WebApplicationContext: initialization completed in 982 ms
+17:36:57.389 1459 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: default]
+17:36:57.424 1494 [main] INFO  org.hibernate.Version
+				- HHH000412: Hibernate Core {5.4.2.Final}
+17:36:57.494 1564 [main] INFO  o.h.annotations.common.Version
+				- HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+17:36:57.548 1618 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Starting...
+17:36:57.631 1701 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Start completed.
+17:36:57.653 1723 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+17:37:05.258 9328 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17:37:05.259 9329 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:37:05.490 9560 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+				- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17:37:05.570 9640 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				- Initializing ExecutorService 'applicationTaskExecutor'
+17:37:05.684 9754 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				- Starting ProtocolHandler ["http-nio-8080"]
+17:37:05.709 9779 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				- Tomcat started on port(s): 8080 (http) with context path '/limm'
+17:37:05.711 9781 [main] INFO  o.p.p.ProxiBankV4LimmApplication
+				- Started ProxiBankV4LimmApplication in 9.617 seconds (JVM running for 10.126)
+17:37:29.187 199  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+				- Neither @ContextConfiguration nor @ContextHierarchy found for test class [org.project.proxibank.ServiceTestLayer], using SpringBootContextLoader
+17:37:29.192 204  [main] INFO  o.s.t.c.s.AbstractContextLoader
+				- Could not detect default resource locations for test class [org.project.proxibank.ServiceTestLayer]: no resource found for suffixes {-context.xml, Context.groovy}.
+17:37:29.193 205  [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils
+				- Could not detect default configuration classes for test class [org.project.proxibank.ServiceTestLayer]: ServiceTestLayer does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:37:29.279 291  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+				- Found @SpringBootConfiguration org.project.proxibank.ProxiBankV4LimmApplication for test class org.project.proxibank.ServiceTestLayer
+17:37:29.357 369  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+				- Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+17:37:29.372 384  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+				- Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6bffbc6d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1b84f475, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7749bf93, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@13330ac6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@539d019, org.springframework.test.context.transaction.TransactionalTestExecutionListener@39a2bb97, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3ad2e17, org.springframework.test.context.event.EventPublishingTestExecutionListener@8c3619e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4331d187, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6f63b475, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@554e218, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1608bcbd, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5bf8fa12]
+17:37:29.659 671  [main] INFO  o.p.proxibank.ServiceTestLayer
+				- Starting ServiceTestLayer on Mambo46 with PID 6912 (started by Adminl in C:\Users\Adminl\Desktop\WorkProject\ProxiBank_v4_LIMM)
+17:37:29.660 672  [main] INFO  o.p.proxibank.ServiceTestLayer
+				- No active profile set, falling back to default profiles: default
+17:37:30.365 1377 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Bootstrapping Spring Data repositories in DEFAULT mode.
+17:37:30.439 1451 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Finished Spring Data repository scanning in 66ms. Found 3 repository interfaces.
+17:37:30.723 1735 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7b3c9503] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:37:30.966 1978 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: default]
+17:37:31.029 2041 [main] INFO  org.hibernate.Version
+				- HHH000412: Hibernate Core {5.4.2.Final}
+17:37:31.171 2183 [main] INFO  o.h.annotations.common.Version
+				- HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+17:37:31.263 2275 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Starting...
+17:37:31.419 2431 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Start completed.
+17:37:31.431 2443 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+17:37:40.109 11121 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17:37:40.115 11127 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:37:40.754 11766 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+				- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17:37:41.024 12036 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				- Initializing ExecutorService 'applicationTaskExecutor'
+17:37:41.392 12404 [main] INFO  o.p.proxibank.ServiceTestLayer
+				- Started ServiceTestLayer in 11.989 seconds (JVM running for 12.85)
+17:37:41.806 12818 [Thread-1] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				- Shutting down ExecutorService 'applicationTaskExecutor'
+17:37:41.809 12821 [Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Closing JPA EntityManagerFactory for persistence unit 'default'
+17:37:41.811 12823 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown initiated...
+17:37:41.822 12834 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown completed.
+17:38:16.860 80930 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[localhost].[/limm]
+				- Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:38:16.861 80931 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+				- Initializing Servlet 'dispatcherServlet'
+17:38:16.867 80937 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+				- Completed initialization in 6 ms
+17:40:41.714 201  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+				- Neither @ContextConfiguration nor @ContextHierarchy found for test class [org.project.proxibank.ServiceTestLayer], using SpringBootContextLoader
+17:40:41.720 207  [main] INFO  o.s.t.c.s.AbstractContextLoader
+				- Could not detect default resource locations for test class [org.project.proxibank.ServiceTestLayer]: no resource found for suffixes {-context.xml, Context.groovy}.
+17:40:41.720 207  [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils
+				- Could not detect default configuration classes for test class [org.project.proxibank.ServiceTestLayer]: ServiceTestLayer does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:40:41.806 293  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+				- Found @SpringBootConfiguration org.project.proxibank.ProxiBankV4LimmApplication for test class org.project.proxibank.ServiceTestLayer
+17:40:41.878 365  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+				- Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+17:40:41.892 379  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+				- Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3ad2e17, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@8c3619e, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4331d187, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6f63b475, org.springframework.test.context.support.DirtiesContextTestExecutionListener@554e218, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1608bcbd, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5bf8fa12, org.springframework.test.context.event.EventPublishingTestExecutionListener@29ca3d04, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@b2c5e07, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5812f68b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4426bff1, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3c7c886c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@55493582]
+17:40:42.123 610  [main] INFO  o.p.proxibank.ServiceTestLayer
+				- Starting ServiceTestLayer on Mambo46 with PID 36996 (started by Adminl in C:\Users\Adminl\Desktop\WorkProject\ProxiBank_v4_LIMM)
+17:40:42.124 611  [main] INFO  o.p.proxibank.ServiceTestLayer
+				- No active profile set, falling back to default profiles: default
+17:40:42.816 1303 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Bootstrapping Spring Data repositories in DEFAULT mode.
+17:40:42.885 1372 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Finished Spring Data repository scanning in 62ms. Found 3 repository interfaces.
+17:40:43.170 1657 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$de204afd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:40:43.419 1906 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: default]
+17:40:43.478 1965 [main] INFO  org.hibernate.Version
+				- HHH000412: Hibernate Core {5.4.2.Final}
+17:40:43.599 2086 [main] INFO  o.h.annotations.common.Version
+				- HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+17:40:43.779 2266 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Starting...
+17:40:43.927 2414 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Start completed.
+17:40:43.939 2426 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+17:40:51.972 10459 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17:40:51.979 10466 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:40:52.581 11068 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+				- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17:40:52.857 11344 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				- Initializing ExecutorService 'applicationTaskExecutor'
+17:40:53.268 11755 [main] INFO  o.p.proxibank.ServiceTestLayer
+				- Started ServiceTestLayer in 11.345 seconds (JVM running for 12.178)
+17:40:53.611 12098 [main] INFO  o.p.p.service.AccountServiceImpl
+				- Account is created
+17:40:53.815 12302 [main] INFO  o.p.p.service.ClientServiceImpl
+				- Client is created
+17:40:53.973 12460 [Thread-1] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				- Shutting down ExecutorService 'applicationTaskExecutor'
+17:40:53.976 12463 [Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Closing JPA EntityManagerFactory for persistence unit 'default'
+17:40:53.978 12465 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown initiated...
+17:40:53.992 12479 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown completed.
+17:42:29.672 200  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+				- Neither @ContextConfiguration nor @ContextHierarchy found for test class [org.project.proxibank.ServiceTestLayer], using SpringBootContextLoader
+17:42:29.677 205  [main] INFO  o.s.t.c.s.AbstractContextLoader
+				- Could not detect default resource locations for test class [org.project.proxibank.ServiceTestLayer]: no resource found for suffixes {-context.xml, Context.groovy}.
+17:42:29.678 206  [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils
+				- Could not detect default configuration classes for test class [org.project.proxibank.ServiceTestLayer]: ServiceTestLayer does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:42:29.765 293  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+				- Found @SpringBootConfiguration org.project.proxibank.ProxiBankV4LimmApplication for test class org.project.proxibank.ServiceTestLayer
+17:42:29.845 373  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+				- Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+17:42:29.860 388  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+				- Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3ad2e17, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@8c3619e, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4331d187, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6f63b475, org.springframework.test.context.support.DirtiesContextTestExecutionListener@554e218, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1608bcbd, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5bf8fa12, org.springframework.test.context.event.EventPublishingTestExecutionListener@29ca3d04, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@b2c5e07, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5812f68b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4426bff1, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3c7c886c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@55493582]
+17:42:30.105 633  [main] INFO  o.p.proxibank.ServiceTestLayer
+				- Starting ServiceTestLayer on Mambo46 with PID 10324 (started by Adminl in C:\Users\Adminl\Desktop\WorkProject\ProxiBank_v4_LIMM)
+17:42:30.106 634  [main] INFO  o.p.proxibank.ServiceTestLayer
+				- No active profile set, falling back to default profiles: default
+17:42:30.774 1302 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Bootstrapping Spring Data repositories in DEFAULT mode.
+17:42:30.847 1375 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Finished Spring Data repository scanning in 66ms. Found 3 repository interfaces.
+17:42:31.167 1695 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8389fad4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:42:31.421 1949 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: default]
+17:42:31.482 2010 [main] INFO  org.hibernate.Version
+				- HHH000412: Hibernate Core {5.4.2.Final}
+17:42:31.621 2149 [main] INFO  o.h.annotations.common.Version
+				- HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+17:42:31.719 2247 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Starting...
+17:42:31.859 2387 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Start completed.
+17:42:31.870 2398 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+17:42:40.246 10774 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17:42:40.267 10795 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:42:40.924 11452 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+				- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17:42:41.184 11712 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				- Initializing ExecutorService 'applicationTaskExecutor'
+17:42:41.573 12101 [main] INFO  o.p.proxibank.ServiceTestLayer
+				- Started ServiceTestLayer in 11.685 seconds (JVM running for 12.51)
+17:42:41.823 12351 [main] INFO  o.p.p.service.AccountServiceImpl
+				- Account is created
+17:42:42.032 12560 [main] INFO  o.p.p.service.ClientServiceImpl
+				- Client is created
+17:42:42.114 12642 [main] INFO  o.p.p.service.ClientServiceImpl
+				- Client is created
+17:42:42.210 12738 [Thread-1] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				- Shutting down ExecutorService 'applicationTaskExecutor'
+17:42:42.212 12740 [Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Closing JPA EntityManagerFactory for persistence unit 'default'
+17:42:42.215 12743 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown initiated...
+17:42:42.225 12753 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown completed.
+17:43:17.744 381814 [http-nio-8080-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver
+				- Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+17:43:56.672 420742 [http-nio-8080-exec-7] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver
+				- Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "customers"]
+17:47:02.377 211  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+				- Neither @ContextConfiguration nor @ContextHierarchy found for test class [org.project.proxibank.ServiceTestLayer], using SpringBootContextLoader
+17:47:02.383 217  [main] INFO  o.s.t.c.s.AbstractContextLoader
+				- Could not detect default resource locations for test class [org.project.proxibank.ServiceTestLayer]: no resource found for suffixes {-context.xml, Context.groovy}.
+17:47:02.384 218  [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils
+				- Could not detect default configuration classes for test class [org.project.proxibank.ServiceTestLayer]: ServiceTestLayer does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:47:02.480 314  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+				- Found @SpringBootConfiguration org.project.proxibank.ProxiBankV4LimmApplication for test class org.project.proxibank.ServiceTestLayer
+17:47:02.557 391  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+				- Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+17:47:02.570 404  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+				- Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3b7d3a38, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@416c58f5, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5505ae1a, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@73cd37c0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@21337f7b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2bb3058, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7a362b6b, org.springframework.test.context.event.EventPublishingTestExecutionListener@60df60da, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5a2d131d, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@14fc1f0, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4ae9cfc1, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@512baff6, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@632ceb35]
+17:47:02.796 630  [main] INFO  o.p.proxibank.ServiceTestLayer
+				- Starting ServiceTestLayer on Mambo46 with PID 23760 (started by Adminl in C:\Users\Adminl\Desktop\WorkProject\ProxiBank_v4_LIMM)
+17:47:02.797 631  [main] INFO  o.p.proxibank.ServiceTestLayer
+				- No active profile set, falling back to default profiles: default
+17:47:03.517 1351 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Bootstrapping Spring Data repositories in DEFAULT mode.
+17:47:03.595 1429 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Finished Spring Data repository scanning in 71ms. Found 3 repository interfaces.
+17:47:03.872 1706 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$355106fe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:47:04.127 1961 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: default]
+17:47:04.184 2018 [main] INFO  org.hibernate.Version
+				- HHH000412: Hibernate Core {5.4.2.Final}
+17:47:04.332 2166 [main] INFO  o.h.annotations.common.Version
+				- HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+17:47:04.434 2268 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Starting...
+17:47:04.592 2426 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Start completed.
+17:47:04.604 2438 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+17:47:13.612 11446 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17:47:13.616 11450 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:47:14.223 12057 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+				- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17:47:14.508 12342 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				- Initializing ExecutorService 'applicationTaskExecutor'
+17:47:14.923 12757 [main] INFO  o.p.proxibank.ServiceTestLayer
+				- Started ServiceTestLayer in 12.325 seconds (JVM running for 13.25)
+17:47:15.177 13011 [main] INFO  o.p.p.service.AccountServiceImpl
+				- Account is created
+17:47:15.374 13208 [main] INFO  o.p.p.service.ClientServiceImpl
+				- Client is created
+17:47:15.567 13401 [main] INFO  o.p.p.service.ClientServiceImpl
+				- Client is created
+17:47:15.847 13681 [Thread-1] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				- Shutting down ExecutorService 'applicationTaskExecutor'
+17:47:15.850 13684 [Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Closing JPA EntityManagerFactory for persistence unit 'default'
+17:47:15.855 13689 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown initiated...
+17:47:15.872 13706 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown completed.
+17:47:26.481 193  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+				- Neither @ContextConfiguration nor @ContextHierarchy found for test class [org.project.proxibank.ServiceTestLayer], using SpringBootContextLoader
+17:47:26.486 198  [main] INFO  o.s.t.c.s.AbstractContextLoader
+				- Could not detect default resource locations for test class [org.project.proxibank.ServiceTestLayer]: no resource found for suffixes {-context.xml, Context.groovy}.
+17:47:26.486 198  [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils
+				- Could not detect default configuration classes for test class [org.project.proxibank.ServiceTestLayer]: ServiceTestLayer does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:47:26.573 285  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+				- Found @SpringBootConfiguration org.project.proxibank.ProxiBankV4LimmApplication for test class org.project.proxibank.ServiceTestLayer
+17:47:26.645 357  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+				- Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+17:47:26.660 372  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+				- Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3ad2e17, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@8c3619e, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4331d187, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6f63b475, org.springframework.test.context.support.DirtiesContextTestExecutionListener@554e218, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1608bcbd, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5bf8fa12, org.springframework.test.context.event.EventPublishingTestExecutionListener@29ca3d04, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@b2c5e07, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5812f68b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4426bff1, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3c7c886c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@55493582]
+17:47:26.899 611  [main] INFO  o.p.proxibank.ServiceTestLayer
+				- Starting ServiceTestLayer on Mambo46 with PID 6516 (started by Adminl in C:\Users\Adminl\Desktop\WorkProject\ProxiBank_v4_LIMM)
+17:47:26.900 612  [main] INFO  o.p.proxibank.ServiceTestLayer
+				- No active profile set, falling back to default profiles: default
+17:47:27.621 1333 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Bootstrapping Spring Data repositories in DEFAULT mode.
+17:47:27.705 1417 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Finished Spring Data repository scanning in 75ms. Found 3 repository interfaces.
+17:47:27.992 1704 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8389fad4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:47:28.241 1953 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: default]
+17:47:28.298 2010 [main] INFO  org.hibernate.Version
+				- HHH000412: Hibernate Core {5.4.2.Final}
+17:47:28.434 2146 [main] INFO  o.h.annotations.common.Version
+				- HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+17:47:28.535 2247 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Starting...
+17:47:28.697 2409 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Start completed.
+17:47:28.712 2424 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+17:47:37.983 11695 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17:47:37.989 11701 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:47:38.589 12301 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+				- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17:47:38.847 12559 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				- Initializing ExecutorService 'applicationTaskExecutor'
+17:47:39.251 12963 [main] INFO  o.p.proxibank.ServiceTestLayer
+				- Started ServiceTestLayer in 12.562 seconds (JVM running for 13.431)
+17:47:39.507 13219 [main] INFO  o.p.p.service.AccountServiceImpl
+				- Account is created
+17:47:39.981 13693 [main] INFO  o.p.p.service.ClientServiceImpl
+				- Client is created
+17:47:40.094 13806 [main] INFO  o.p.p.service.ClientServiceImpl
+				- Client is created
+17:47:40.416 14128 [Thread-1] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				- Shutting down ExecutorService 'applicationTaskExecutor'
+17:47:40.419 14131 [Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Closing JPA EntityManagerFactory for persistence unit 'default'
+17:47:40.423 14135 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown initiated...
+17:47:40.435 14147 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown completed.
+17:48:20.315 684385 [http-nio-8080-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver
+				- Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+17:51:23.846 867916 [http-nio-8080-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver
+				- Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+17:51:23.847 867917 [http-nio-8080-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver
+				- Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+17:52:11.333 204  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+				- Neither @ContextConfiguration nor @ContextHierarchy found for test class [org.project.proxibank.ServiceTestLayer], using SpringBootContextLoader
+17:52:11.339 210  [main] INFO  o.s.t.c.s.AbstractContextLoader
+				- Could not detect default resource locations for test class [org.project.proxibank.ServiceTestLayer]: no resource found for suffixes {-context.xml, Context.groovy}.
+17:52:11.339 210  [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils
+				- Could not detect default configuration classes for test class [org.project.proxibank.ServiceTestLayer]: ServiceTestLayer does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:52:11.429 300  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+				- Found @SpringBootConfiguration org.project.proxibank.ProxiBankV4LimmApplication for test class org.project.proxibank.ServiceTestLayer
+17:52:11.510 381  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+				- Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+17:52:11.525 396  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+				- Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3ad2e17, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@8c3619e, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4331d187, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6f63b475, org.springframework.test.context.support.DirtiesContextTestExecutionListener@554e218, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1608bcbd, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5bf8fa12, org.springframework.test.context.event.EventPublishingTestExecutionListener@29ca3d04, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@b2c5e07, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5812f68b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4426bff1, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3c7c886c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@55493582]
+17:52:11.782 653  [main] INFO  o.p.proxibank.ServiceTestLayer
+				- Starting ServiceTestLayer on Mambo46 with PID 24444 (started by Adminl in C:\Users\Adminl\Desktop\WorkProject\ProxiBank_v4_LIMM)
+17:52:11.783 654  [main] INFO  o.p.proxibank.ServiceTestLayer
+				- No active profile set, falling back to default profiles: default
+17:52:12.490 1361 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Bootstrapping Spring Data repositories in DEFAULT mode.
+17:52:12.577 1448 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Finished Spring Data repository scanning in 77ms. Found 3 repository interfaces.
+17:52:12.900 1771 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$27e5e898] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:52:13.155 2026 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: default]
+17:52:13.222 2093 [main] INFO  org.hibernate.Version
+				- HHH000412: Hibernate Core {5.4.2.Final}
+17:52:13.344 2215 [main] INFO  o.h.annotations.common.Version
+				- HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+17:52:13.540 2411 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Starting...
+17:52:13.709 2580 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Start completed.
+17:52:13.724 2595 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+17:52:22.344 11215 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17:52:22.351 11222 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:52:22.920 11791 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+				- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17:52:23.173 12044 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				- Initializing ExecutorService 'applicationTaskExecutor'
+17:52:23.558 12429 [main] INFO  o.p.proxibank.ServiceTestLayer
+				- Started ServiceTestLayer in 12.002 seconds (JVM running for 12.877)
+17:52:23.855 12726 [main] INFO  o.p.p.service.AccountServiceImpl
+				- Account is created
+17:52:24.102 12973 [main] INFO  o.p.p.service.ClientServiceImpl
+				- Client is created
+17:52:24.175 13046 [main] INFO  o.p.p.service.ClientServiceImpl
+				- Client is created
+17:52:24.473 13344 [Thread-1] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				- Shutting down ExecutorService 'applicationTaskExecutor'
+17:52:24.475 13346 [Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Closing JPA EntityManagerFactory for persistence unit 'default'
+17:52:24.478 13349 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown initiated...
+17:52:24.492 13363 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown completed.
+17:53:47.421 1011491 [http-nio-8080-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver
+				- Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+17:54:26.065 1050135 [http-nio-8080-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver
+				- Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+17:55:03.429 1087499 [http-nio-8080-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver
+				- Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+17:56:48.021 191  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+				- Neither @ContextConfiguration nor @ContextHierarchy found for test class [org.project.proxibank.ServiceTestLayer], using SpringBootContextLoader
+17:56:48.027 197  [main] INFO  o.s.t.c.s.AbstractContextLoader
+				- Could not detect default resource locations for test class [org.project.proxibank.ServiceTestLayer]: no resource found for suffixes {-context.xml, Context.groovy}.
+17:56:48.027 197  [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils
+				- Could not detect default configuration classes for test class [org.project.proxibank.ServiceTestLayer]: ServiceTestLayer does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:56:48.124 294  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+				- Found @SpringBootConfiguration org.project.proxibank.ProxiBankV4LimmApplication for test class org.project.proxibank.ServiceTestLayer
+17:56:48.204 374  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+				- Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+17:56:48.219 389  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+				- Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3ad2e17, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@8c3619e, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4331d187, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6f63b475, org.springframework.test.context.support.DirtiesContextTestExecutionListener@554e218, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1608bcbd, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5bf8fa12, org.springframework.test.context.event.EventPublishingTestExecutionListener@29ca3d04, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@b2c5e07, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5812f68b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4426bff1, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3c7c886c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@55493582]
+17:56:48.459 629  [main] INFO  o.p.proxibank.ServiceTestLayer
+				- Starting ServiceTestLayer on Mambo46 with PID 31408 (started by Adminl in C:\Users\Adminl\Desktop\WorkProject\ProxiBank_v4_LIMM)
+17:56:48.460 630  [main] INFO  o.p.proxibank.ServiceTestLayer
+				- No active profile set, falling back to default profiles: default
+17:56:49.099 1269 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Bootstrapping Spring Data repositories in DEFAULT mode.
+17:56:49.176 1346 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Finished Spring Data repository scanning in 70ms. Found 3 repository interfaces.
+17:56:49.477 1647 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7a420215] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:56:49.728 1898 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: default]
+17:56:49.799 1969 [main] INFO  org.hibernate.Version
+				- HHH000412: Hibernate Core {5.4.2.Final}
+17:56:49.967 2137 [main] INFO  o.h.annotations.common.Version
+				- HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+17:56:50.059 2229 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Starting...
+17:56:50.219 2389 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Start completed.
+17:56:50.231 2401 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+17:56:58.825 10995 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17:56:58.832 11002 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:56:59.151 11321 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+				- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17:56:59.951 12121 [main] INFO  o.p.proxibank.ServiceTestLayer
+				- Started ServiceTestLayer in 11.702 seconds (JVM running for 12.551)
+17:57:00.240 12410 [main] INFO  o.p.p.service.AccountServiceImpl
+				- Account is created
+17:57:00.536 12706 [main] INFO  o.p.p.service.ClientServiceImpl
+				- Client is created
+17:57:00.623 12793 [main] INFO  o.p.p.service.ClientServiceImpl
+				- Client is created
+17:57:01.027 13197 [Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Closing JPA EntityManagerFactory for persistence unit 'default'
+17:57:01.030 13200 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown initiated...
+17:57:01.038 13208 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown completed.
+18:07:39.854 196  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+				- Neither @ContextConfiguration nor @ContextHierarchy found for test class [org.project.proxibank.ProxiBankV4LimmApplicationTests], using SpringBootContextLoader
+18:07:39.859 201  [main] INFO  o.s.t.c.s.AbstractContextLoader
+				- Could not detect default resource locations for test class [org.project.proxibank.ProxiBankV4LimmApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+18:07:39.860 202  [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils
+				- Could not detect default configuration classes for test class [org.project.proxibank.ProxiBankV4LimmApplicationTests]: ProxiBankV4LimmApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:07:39.944 286  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+				- Found @SpringBootConfiguration org.project.proxibank.ProxiBankV4LimmApplication for test class org.project.proxibank.ProxiBankV4LimmApplicationTests
+18:07:40.020 362  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+				- Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+18:07:40.034 376  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+				- Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6bffbc6d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1b84f475, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7749bf93, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@13330ac6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@539d019, org.springframework.test.context.transaction.TransactionalTestExecutionListener@39a2bb97, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3ad2e17, org.springframework.test.context.event.EventPublishingTestExecutionListener@8c3619e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4331d187, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6f63b475, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@554e218, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1608bcbd, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5bf8fa12]
+18:07:40.274 616  [main] INFO  o.p.p.ProxiBankV4LimmApplicationTests
+				- Starting ProxiBankV4LimmApplicationTests on Mambo46 with PID 14712 (started by Adminl in C:\Users\Adminl\Desktop\WorkProject\ProxiBank_v4_LIMM)
+18:07:40.276 618  [main] INFO  o.p.p.ProxiBankV4LimmApplicationTests
+				- No active profile set, falling back to default profiles: default
+18:07:40.971 1313 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Bootstrapping Spring Data repositories in DEFAULT mode.
+18:07:41.044 1386 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Finished Spring Data repository scanning in 67ms. Found 3 repository interfaces.
+18:07:41.352 1694 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4765af9b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:07:41.601 1943 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: default]
+18:07:41.665 2007 [main] INFO  org.hibernate.Version
+				- HHH000412: Hibernate Core {5.4.2.Final}
+18:07:41.824 2166 [main] INFO  o.h.annotations.common.Version
+				- HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+18:07:41.964 2306 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Starting...
+18:07:42.138 2480 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Start completed.
+18:07:42.151 2493 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+18:07:53.696 14038 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:07:53.698 14040 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Initialized JPA EntityManagerFactory for persistence unit 'default'
+18:07:54.434 14776 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+				- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18:07:54.787 15129 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				- Initializing ExecutorService 'applicationTaskExecutor'
+18:07:55.359 15701 [main] INFO  o.p.p.ProxiBankV4LimmApplicationTests
+				- Started ProxiBankV4LimmApplicationTests in 15.294 seconds (JVM running for 16.115)
+18:07:57.509 17851 [Thread-1] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				- Shutting down ExecutorService 'applicationTaskExecutor'
+18:07:57.510 17852 [Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Closing JPA EntityManagerFactory for persistence unit 'default'
+18:07:57.513 17855 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown initiated...
+18:07:57.527 17869 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown completed.

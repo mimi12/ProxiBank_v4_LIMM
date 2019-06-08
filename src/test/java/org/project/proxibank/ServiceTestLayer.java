@@ -1,6 +1,8 @@
 package org.project.proxibank;
 
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 import org.junit.jupiter.api.Test;
 import org.project.proxibank.entities.Account;
@@ -85,4 +87,22 @@ class ServiceTestLayer {
 //	public void shouldTransfer() {
 //		operationService.transfer(54L, 125475L, 8000);
 //	}
+
+	@Test
+	public void shouldCreateAccount2() {
+		Account acc = new SavingsAccount();
+		Account acc2 = new SavingsAccount();
+		Customer c1 = new Customer();
+		c1.setFirstName("Mariem");
+		acc.setClient(c1);
+
+		List<Account> listAccount = new ArrayList<Account>();
+		listAccount.add(acc);
+		listAccount.add(acc2);
+		
+		c1.setAccountList(listAccount);
+		acc.setAccountNumber(15468L);
+		clientService.createClient(c1);
+
+	}
 }
