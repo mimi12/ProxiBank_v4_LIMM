@@ -19,7 +19,8 @@ import com.fasterxml.jackson.annotation.JsonManagedReference;
 /**
  * Classe de conseiller {@link Advisor} qui possede les getters et setters d'un
  * conseiller, ainsi que le constructeur. Un conseiller {@link Advisor} possede
- * une liste de clients {@link Client} et un attribut de type Manager.
+ * une liste de clients {@link Client} et un attribut de type Manager. Cette
+ * classe herite de la classe abstraite {@link Employee }
  * 
  * @author LIMM
  *

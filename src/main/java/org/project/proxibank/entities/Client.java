@@ -56,14 +56,6 @@ public abstract class Client {
 
 	private Advisor advisor;
 
-	public Long getIdClient() {
-		return id;
-	}
-
-	public void setIdClient(Long id) {
-		this.id = id;
-	}
-
 	public String getPhone() {
 		return phone;
 	}
@@ -82,6 +74,14 @@ public abstract class Client {
 
 	public String getAddressClient() {
 		return addressClient;
+	}
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
 	}
 
 	public void setAddressClient(String addressClient) {

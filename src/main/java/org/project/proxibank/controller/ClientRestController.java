@@ -110,6 +110,6 @@ public class ClientRestController {
 	public Client updateClient(@RequestBody Client client) {
 		clientService.createClient(client);
 		LOGGER.info("Client is updated");
-		return clientService.getClient(client.getIdClient());
+		return clientService.getClient(client.getId());
 	}
 }

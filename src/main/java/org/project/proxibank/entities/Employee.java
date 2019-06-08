@@ -11,7 +11,7 @@ import javax.persistence.InheritanceType;
 
 /**
  * Classe abstraite {@link Employee} qui pourra etre etendue en {@link Manager}
- * ou {@link Employee}.
+ * ou {@link Advisor}.
  * 
  * @author LIMM
  *

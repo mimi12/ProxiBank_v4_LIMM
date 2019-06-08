@@ -38,6 +38,8 @@ public abstract class Account {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
 
+	private String accountNumber;
+
 	private double accountBalance;
 	private Date openingAccountDate;
 
@@ -57,22 +59,8 @@ public abstract class Account {
 		this.operationList = operationList;
 	}
 
-	public Account(double accountBalance, Date openingAccountDate) {
-		super();
-		this.accountBalance = accountBalance;
-		this.openingAccountDate = openingAccountDate;
-	}
-
 	public Account() {
 		super();
-	}
-
-	public Long getAccountNumber() {
-		return id;
-	}
-
-	public void setAccountNumber(Long id) {
-		this.id = id;
 	}
 
 	public double getAccountBalance() {
@@ -83,6 +71,24 @@ public abstract class Account {
 		this.accountBalance = accountBalance;
 	}
 
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public Client getClient() {
+		return client;
+	}
+
+	public Account(double accountBalance, Date openingAccountDate) {
+		super();
+		this.accountBalance = accountBalance;
+		this.openingAccountDate = openingAccountDate;
+	}
+
 	public Date getOpeningAccountDate() {
 		return openingAccountDate;
 	}
@@ -91,8 +97,12 @@ public abstract class Account {
 		this.openingAccountDate = openingAccountDate;
 	}
 
-	public Client getClient() {
-		return client;
+	public String getAccountNumber() {
+		return accountNumber;
+	}
+
+	public void setAccountNumber(String accountNumber) {
+		this.accountNumber = accountNumber;
 	}
 
 	public void setClient(Client client) {

@@ -11,6 +11,14 @@ import javax.persistence.OneToMany;
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 
+/**
+ * Classe de gerant {@link Manager} qui possede une liste de conseillers
+ * {@link Advisor}. Cette classe herite de la classe abstraite {@link Employee
+ * }.
+ * 
+ * @author LIMM
+ *
+ */
 @Entity
 @DiscriminatorValue("Manager")
 public class Manager extends Employee {

@@ -17,8 +17,8 @@ import com.fasterxml.jackson.annotation.JsonBackReference;
 
 /**
  * Classe abstraite {@link Operation} representant les operations bancaires
- * possibles, avec un identifiant unique par operation, un montant, une date
- * generee au moment de l'operation et le compte concerné.
+ * possibles, avec un identifiant unique par operation, un montant, une date et
+ * le compte concerné.
  * 
  * @author LIMM
  *
@@ -40,6 +40,14 @@ public abstract class Operation {
 	@JoinColumn(name = "account_id")
 	private Account account;
 
+	public Date getOperationDate() {
+		return operationDate;
+	}
+
+	public void setOperationDate(Date operationDate) {
+		this.operationDate = operationDate;
+	}
+
 	public Long getIdOperation() {
 		return id;
 	}
@@ -48,12 +56,12 @@ public abstract class Operation {
 		this.id = id;
 	}
 
-	public Date getOperationDate() {
-		return operationDate;
+	public Long getId() {
+		return id;
 	}
 
-	public void setOperationDate(Date operationDate) {
-		this.operationDate = operationDate;
+	public void setId(Long id) {
+		this.id = id;
 	}
 
 	public double getAmount() {
