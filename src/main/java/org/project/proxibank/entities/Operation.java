@@ -24,7 +24,7 @@ import com.fasterxml.jackson.annotation.JsonBackReference;
  *
  */
 @Entity
-@Inheritance(strategy = InheritanceType.JOINED)
+@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 @DiscriminatorColumn(name = "TypeOfOperation", discriminatorType = DiscriminatorType.STRING)
 public abstract class Operation {
 

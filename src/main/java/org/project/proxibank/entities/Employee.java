@@ -17,7 +17,7 @@ import javax.persistence.InheritanceType;
  *
  */
 @Entity
-@Inheritance(strategy = InheritanceType.JOINED)
+@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 @DiscriminatorColumn(name = "TypeOfEmployee", discriminatorType = DiscriminatorType.STRING)
 public abstract class Employee {
 

@@ -31,7 +31,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
  *
  */
 @Entity
-@Inheritance(strategy = InheritanceType.JOINED)
+@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 @DiscriminatorColumn(name = "TypeOfAccount", discriminatorType = DiscriminatorType.STRING)
 public abstract class Account {
 	@Id
