@@ -16,4 +16,11 @@ public class CurrentAccount extends Account {
 
 	public static final double OVERDRAFTAUTHORIZATION = 1000.0;
 
+	public CurrentAccount() {
+
+		super();
+
+		this.setTypeOfAccount("Current");
+	}
+
 }

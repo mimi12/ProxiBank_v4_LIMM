@@ -15,5 +15,9 @@ import javax.persistence.Entity;
 public class SavingsAccount extends Account {
 
 	public static final double DEFAULTSALARYRATE = 0.03;
+	public SavingsAccount() {
+		super();
+		this.setTypeOfAccount("Saving");
+	}
 
 }

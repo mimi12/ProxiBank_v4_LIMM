@@ -14,6 +14,7 @@ import org.project.proxibank.repository.IAccountRepository;
 import org.project.proxibank.repository.IOperationRepository;
 import org.project.proxibank.service.IAccountService;
 import org.project.proxibank.service.IClientService;
+import org.project.proxibank.service.IOperationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -27,9 +28,12 @@ class ServiceTestLayer {
 
 	@Autowired
 	IAccountService accountService;
-	
+
 	@Autowired
 	IOperationRepository operationRepository;
+
+	@Autowired
+	IOperationService operationService;
 
 	@Test
 	public void createClient() {
@@ -58,24 +62,27 @@ class ServiceTestLayer {
 		acc.setOpeningAccountDate(new Date());
 		accountService.createAccount(acc);
 	}
-	
-	@Test
-	public void shouldCreateOperation() {
-		
-		DebitOperation db = new DebitOperation();
-		db.setOperationDate(new Date());
-		operationRepository.save(db);
-	}
+
+//	@Test
+//	public void shouldCreateOperation() {
+//
+//		DebitOperation db = new DebitOperation();
+//		db.setOperationDate(new Date());
+//		operationRepository.save(db);
+//	}
 
 	@Test
 	public void shouldCreditAccount() {
-		
-		Account acc = accountRepository.findById(5L).get();
-		CreditOperation co = new CreditOperation();
-		co.setOperationDate(new Date());
-		acc.setAccountBalance(acc.getAccountBalance() + 500.0);
-		operationRepository.save(co);
-		accountRepository.save(acc);
+		operationService.credit(54L, 450.0);
 	}
 
+	@Test
+	public void shouldDebitAccount() {
+		operationService.debit(125475L, 300.0);
+	}
+
+//	@Test
+//	public void shouldTransfer() {
+//		operationService.transfer(54L, 125475L, 8000);
+//	}
 }

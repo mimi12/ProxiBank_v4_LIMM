@@ -45,7 +45,8 @@ public abstract class Client {
 	private String zipCodeClient;
 	private String cityClient;
 
-	@XmlTransient
+
+
 	@JsonManagedReference
 	@OneToMany(mappedBy = "client", cascade = { CascadeType.PERSIST, CascadeType.REMOVE })
 	private List<Account> accountList = new ArrayList<Account>();

@@ -41,21 +41,23 @@ class ProxiBankV4LimmApplicationTests {
 		c2.setAdvisor(ad);
 
 		Account a = new CurrentAccount();
+		a.setAccountNumber(12L);
 		a.setAccountBalance(5000.0);
 		a.setOpeningAccountDate(new Date());
 
 		Account b = new SavingsAccount();
+		b.setAccountNumber(54L);
 		b.setAccountBalance(2500.0);
 		b.setOpeningAccountDate(new Date());
 
-		Operation op = new DebitOperation();
-		op.setAmount(1000.0);
-		op.setOperationDate(new Date());
-		op.setAccount(b);
-
-		List<Operation> operationList = new ArrayList<Operation>();
-		operationList.add(op);
-		b.setOperationList(operationList);
+//		Operation op = new DebitOperation();
+//		op.setAmount(1000.0);
+//		op.setOperationDate(new Date());
+//		op.setAccount(b);
+//
+//		List<Operation> operationList = new ArrayList<Operation>();
+//		operationList.add(op);
+//		b.setOperationList(operationList);
 
 		List<Client> listClient = new ArrayList<Client>();
 		listClient.add(c);
@@ -78,8 +80,6 @@ class ProxiBankV4LimmApplicationTests {
 		listAdv.add(ad);
 		emp.setAdvisorList(listAdv);
 		clientRepository.save(c);
-
-		// System.out.println("----------------------------------------------------------------------------------------"+c.getAccountList());
 
 	}
 

@@ -11,7 +11,7 @@ import javax.persistence.Entity;
  *
  */
 @Entity
-@DiscriminatorValue("Customer")
+//@DiscriminatorValue("Customer")
 public class Customer extends Client {
 	
 	private String firstName;
