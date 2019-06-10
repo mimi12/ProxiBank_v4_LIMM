@@ -1,11 +1,9 @@
 package org.project.proxibank.service;
 
 import java.util.Date;
+import java.util.List;
 
-import org.project.proxibank.entities.Account;
-import org.project.proxibank.entities.CreditOperation;
-import org.project.proxibank.entities.CurrentAccount;
-import org.project.proxibank.entities.DebitOperation;
+import org.project.proxibank.entities.*;
 import org.project.proxibank.repository.IAccountRepository;
 import org.project.proxibank.repository.IOperationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,6 +24,8 @@ public class OperationService implements IOperationService {
 		CreditOperation co = new CreditOperation();
 		co.setOperationDate(new Date());
 		acc.setAccountBalance(acc.getAccountBalance() + amount);
+		co.setAccount(acc);
+		co.setAmount(amount);
 		operationRepository.save(co);
 		accountRepository.save(acc);
 
@@ -36,6 +36,8 @@ public class OperationService implements IOperationService {
 		Account acc = accountRepository.findById(idAccount).get();
 		DebitOperation co = new DebitOperation();
 		co.setOperationDate(new Date());
+		co.setAccount(acc);
+        co.setAmount(amount);
 //		if ((CurrentAccount) acc instanceof CurrentAccount) 
 //			if (acc.getAccountBalance() + CurrentAccount.OVERDRAFTAUTHORIZATION < amount) 
 //				throw new RuntimeException("solde insuffisant : operation du " + co.getOperationDate() + " annulée");
@@ -63,6 +65,11 @@ public class OperationService implements IOperationService {
 		debit(idAccount1, amount);
 		credit(idAccount2, amount);
 
+	}
+
+	@Override
+	public List<Operation> findByAccountId(Long id) {
+		return operationRepository.findByAccountId(id);
 	}
 
 }

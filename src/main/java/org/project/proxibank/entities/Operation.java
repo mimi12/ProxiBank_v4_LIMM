@@ -2,19 +2,13 @@ package org.project.proxibank.entities;
 
 import java.util.Date;
 
-import javax.persistence.DiscriminatorColumn;
-import javax.persistence.DiscriminatorType;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Inheritance;
-import javax.persistence.InheritanceType;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
+import javax.persistence.*;
 import javax.xml.bind.annotation.XmlTransient;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 /**
  * Classe abstraite {@link Operation} representant les operations bancaires
@@ -27,20 +21,25 @@ import com.fasterxml.jackson.annotation.JsonBackReference;
 
 @Entity
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
-@DiscriminatorColumn(name = "TypeOfOperation", discriminatorType = DiscriminatorType.STRING)
+@DiscriminatorColumn(name = "type_of_operation", discriminatorType = DiscriminatorType.STRING)
 public abstract class Operation {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	private Long id;
+	protected Long id;
 
-	private Date operationDate;
-	private double amount;
+	protected Date operationDate;
+	protected double amount;
 
-	@JsonBackReference
+	@JsonProperty(access = JsonProperty.Access.READ_ONLY)
+	@Column(name = "type_of_operation", insertable= false, updatable= false)
+	protected String type;
+
+	@JsonIgnore
+	@JsonManagedReference
 	@ManyToOne
 	@JoinColumn(name = "account_id")
-	private Account account;
+	protected Account account;
 
 	public Date getOperationDate() {
 		return operationDate;
@@ -82,4 +81,11 @@ public abstract class Operation {
 		this.account = account;
 	}
 
+	public String getType() {
+		return type;
+	}
+
+	public void setType(String type) {
+		this.type = type;
+	}
 }

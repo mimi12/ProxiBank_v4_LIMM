@@ -1,7 +1,8 @@
 package org.project.proxibank.repository;
 
+import java.util.List;
+
 import org.project.proxibank.entities.Account;
-import org.project.proxibank.entities.Client;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
@@ -13,5 +14,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
  *
  */
 public interface IAccountRepository extends JpaRepository<Account, Long> {
-
+	List<Account> findByClientId(Long id);
 }

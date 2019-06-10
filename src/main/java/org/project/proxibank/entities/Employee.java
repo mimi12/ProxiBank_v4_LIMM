@@ -28,11 +28,11 @@ public abstract class Employee {
 	private String firstName;
 	private String lastName;
 
-	public Long getIdEmployee() {
+	public Long getId() {
 		return id;
 	}
 
-	public void setIdEmployee(Long id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 

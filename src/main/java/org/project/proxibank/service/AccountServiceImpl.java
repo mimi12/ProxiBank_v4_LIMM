@@ -39,6 +39,11 @@ public class AccountServiceImpl implements IAccountService {
 	public Account getAccount(Long id) {
 		return accountRepository.findById(id).get();
 	}
+	
+	@Override
+	public List<Account> getAccountsByClient(Long id) {
+		return accountRepository.findByClientId(id);
+	}
 
 	@Override
 	public List<Account> getListAccounts() {
@@ -57,5 +62,6 @@ public class AccountServiceImpl implements IAccountService {
 		LOGGER.info("Account is updated");
 
 	}
+
 
 }

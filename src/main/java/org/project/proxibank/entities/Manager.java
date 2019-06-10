@@ -23,7 +23,7 @@ import com.fasterxml.jackson.annotation.JsonManagedReference;
 @DiscriminatorValue("Manager")
 public class Manager extends Employee {
 
-	@JsonManagedReference
+	@JsonBackReference
 	@OneToMany(mappedBy = "manager", cascade = { CascadeType.PERSIST, CascadeType.REMOVE })
 	List<Advisor> advisorList = new ArrayList<Advisor>();
 

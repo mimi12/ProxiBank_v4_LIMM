@@ -21,6 +21,7 @@ import javax.xml.bind.annotation.XmlTransient;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 /**
  * Classe abstraite {@link Account} qui contient les attributs d'un compte
@@ -35,7 +36,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 @Entity
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 //@DiscriminatorColumn(name = "TypeOfAccount", discriminatorType = DiscriminatorType.STRING)
-public abstract class Account {
+public class Account {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
@@ -47,10 +48,13 @@ public abstract class Account {
 	private Date openingAccountDate;
 	private String typeOfAccount;
 
-	@JsonBackReference
+	//@JsonManagedReference
 	@ManyToOne
 	@JoinColumn(name = "id_Client")
 	private Client client;
+	
+	@OneToMany(cascade = CascadeType.ALL)
+	List<Operation> operationList = new ArrayList<Operation>();
 
 	
 	public String getTypeOfAccount() {
@@ -61,8 +65,6 @@ public abstract class Account {
 		this.typeOfAccount = typeOfAccount;
 	}
 
-	@OneToMany(cascade = CascadeType.ALL)
-	List<Operation> operationList = new ArrayList<Operation>();
 
 	public List<Operation> getOperationList() {
 		return operationList;

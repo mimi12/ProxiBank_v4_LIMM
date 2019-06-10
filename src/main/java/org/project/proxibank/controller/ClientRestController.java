@@ -3,6 +3,8 @@ package org.project.proxibank.controller;
 import java.util.List;
 
 import org.project.proxibank.entities.Client;
+import org.project.proxibank.entities.Company;
+import org.project.proxibank.entities.Customer;
 import org.project.proxibank.service.IClientService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -29,8 +31,8 @@ import org.springframework.web.bind.annotation.RestController;
  *
  */
 @RestController
-@RequestMapping("/clients")
-@CrossOrigin(origins = "http://localhost:4200")
+@RequestMapping(value = "/clients")
+@CrossOrigin("*")
 public class ClientRestController {
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(ClientRestController.class);
@@ -66,10 +68,16 @@ public class ClientRestController {
 	 * @author LIMM
 	 *
 	 */
-	@PostMapping
-	public Client createClient(@RequestBody Client client) {
+	@PostMapping("/company")
+	public Company createClient(@RequestBody Company company) {
 		LOGGER.info("Client is created");
-		return clientService.createClient(client);
+		return (Company) clientService.createClient(company);
+	}
+	
+	@PostMapping("/customer")
+	public Customer createCustomer(@RequestBody Customer company) {
+		LOGGER.info("Client nis created");
+		return (Customer) clientService.createClient(company);
 	}
 
 	/**
@@ -106,8 +114,15 @@ public class ClientRestController {
 	 * @author LIMM
 	 *
 	 */
-	@PutMapping
-	public Client updateClient(@RequestBody Client client) {
+	@PutMapping("/company")
+	public Client updateClient(@RequestBody Company client) {
+		clientService.createClient(client);
+		LOGGER.info("Client is updated");
+		return clientService.getClient(client.getId());
+	}
+
+	@PutMapping("/customer")
+	public Client updateClient(@RequestBody Customer client) {
 		clientService.createClient(client);
 		LOGGER.info("Client is updated");
 		return clientService.getClient(client.getId());

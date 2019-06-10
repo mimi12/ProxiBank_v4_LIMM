@@ -12,7 +12,6 @@ import org.project.proxibank.entities.Company;
 import org.project.proxibank.entities.CurrentAccount;
 import org.project.proxibank.entities.Customer;
 import org.project.proxibank.entities.DebitOperation;
-import org.project.proxibank.entities.Employee;
 import org.project.proxibank.entities.Manager;
 import org.project.proxibank.entities.Operation;
 import org.project.proxibank.entities.SavingsAccount;
@@ -78,7 +77,8 @@ class ProxiBankV4LimmApplicationTests {
 		List<Advisor> listAdv = new ArrayList<Advisor>();
 		ad.setManager(emp);
 		listAdv.add(ad);
-		emp.setAdvisorList(listAdv);
+		 emp.setAdvisorList(listAdv);
+		clientRepository.save(c2);
 		clientRepository.save(c);
 
 	}

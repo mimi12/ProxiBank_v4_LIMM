@@ -15,10 +15,10 @@ import javax.persistence.InheritanceType;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
-import javax.xml.bind.annotation.XmlTransient;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 /**
@@ -34,7 +34,8 @@ import com.fasterxml.jackson.annotation.JsonManagedReference;
 @Entity
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 @DiscriminatorColumn(name = "TypeOfClient", discriminatorType = DiscriminatorType.STRING)
-public abstract class Client {
+@JsonIgnoreProperties({"accountList"})
+public class Client {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
@@ -45,16 +46,14 @@ public abstract class Client {
 	private String zipCodeClient;
 	private String cityClient;
 
-
-
-	@JsonManagedReference
+	
+	//@JsonBackReference
 	@OneToMany(mappedBy = "client", cascade = { CascadeType.PERSIST, CascadeType.REMOVE })
 	private List<Account> accountList = new ArrayList<Account>();
 
-	@JsonBackReference
+	@JsonIgnore
 	@ManyToOne(cascade = { CascadeType.PERSIST, CascadeType.REMOVE })
 	@JoinColumn(name = "id_Advisor")
-
 	private Advisor advisor;
 
 	public String getPhone() {

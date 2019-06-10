@@ -1,6 +1,10 @@
 package org.project.proxibank.controller;
 
+import java.util.List;
+
 import org.project.proxibank.entities.Account;
+import org.project.proxibank.entities.CurrentAccount;
+import org.project.proxibank.entities.SavingsAccount;
 import org.project.proxibank.service.IAccountService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -19,13 +23,29 @@ public class AccountRestController {
 	@Autowired
 	IAccountService accountService;
 
+	@GetMapping
+	public List<Account> getAll() {
+		return accountService.getListAccounts();
+	}
+
 	@GetMapping("/{id}")
 	public Account getAccount(@PathVariable("id") Long id) {
 		return accountService.getAccount(id);
 	}
+	
+	
+	@GetMapping("/by-client/{id}")
+	public List<Account> getAccountByClient(@PathVariable("id") Long id) {
+		return accountService.getAccountsByClient(id);
+	}
 
-	@PostMapping
-	public Account createAccount(@RequestBody Account account) {
+	@PostMapping("/saving")
+	public Account createAccount(@RequestBody SavingsAccount account) {
+		return accountService.createAccount(account);
+	}
+	
+	@PostMapping("/current")
+	public Account createAccount(@RequestBody CurrentAccount account) {
 		return accountService.createAccount(account);
 	}
 }

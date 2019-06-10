@@ -14,6 +14,7 @@ import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 /**
@@ -32,10 +33,12 @@ public class Advisor extends Employee {
 	private String firstName;
 	private String lastName;
 
-	@JsonBackReference
+	//@JsonBackReference
 	@OneToMany(mappedBy = "advisor", cascade = { CascadeType.PERSIST, CascadeType.REMOVE })
 	List<Client> clientList = new ArrayList<Client>();
-
+	
+	@JsonIgnore
+	//@JsonManagedReference
 	@ManyToOne(cascade = { CascadeType.PERSIST, CascadeType.REMOVE })
 	@JoinColumn(name = "id_manager")
 	Manager manager;

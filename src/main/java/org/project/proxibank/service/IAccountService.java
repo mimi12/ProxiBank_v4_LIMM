@@ -34,6 +34,16 @@ public interface IAccountService {
 	 *
 	 */
 	public Account getAccount(Long id);
+	
+	
+	/**
+	 * Methode getAccount qui prend en parametre l'identifiant d'un {@link Account}
+	 * et permet de récupérer les informations concernant les compte d'un client
+	 * 
+	 * @author LIMM
+	 *
+	 */
+	public List<Account> getAccountsByClient(Long id);
 
 	/**
 	 * Methode getListAccounts qui permet de recuperer la liste complète des comptes
